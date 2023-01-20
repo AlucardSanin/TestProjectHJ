@@ -1,27 +1,27 @@
-body{
+body {
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   margin: 1%;
 }
 
-h1{
+h1 {
   font-size: 80px;
   margin: 0;
 }
 
-hr{
-  margin: 0; 
+hr {
+  margin: 0;
 }
 
-#header p{
+p {
+  font-size: large;
+}
+
+#header p {
   color: gray;
 }
 
-.List h1{
+.List h1 {
   font-size: 60px;
-}
-
-p{
-  font-size: large;
 }
 
 input {
