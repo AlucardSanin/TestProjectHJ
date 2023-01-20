@@ -11,13 +11,13 @@ function textwriter(type) {
   line.textContent = text.value;
   list.appendChild(line);
   text.value = '';
-  input.placeholder = 'Type /1 and hit enter to start typing an H1 Text';
 }
 
 // If only I can loose weight as fast as the trim function D:
 
 input.addEventListener('keydown', (e) => {
-  if (e.key !== 'Backspace' && text.value.trim() === '/1') {
+  if (e.key === '1' && text.value.trim() === '/') {
+    e.preventDefault();
     text.value = '';
     type = 'h1';
     input.placeholder = 'Heading 1';
