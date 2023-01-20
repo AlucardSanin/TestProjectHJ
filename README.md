@@ -1,10 +1,20 @@
 # TestProjectHJ
 
+# Description
+
+A simple web app to create blocks of H1 Headlines or Parragraphs. 
+
 ## Built With
 
 - HTML
 - CSS
 - Javascript
+
+## How to use it
+
+- Clone (Or download) the repo
+- Run index.html file
+- Have fun!
 
 ## Live Demo 
 
