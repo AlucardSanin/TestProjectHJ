@@ -28,7 +28,6 @@ input.addEventListener('keydown', (e) => {
     type = 'p';
   } else if (e.key === 'Enter' && text.value.trim().length > 0) {
     textwriter(type);
-    type = 'p';
     input.placeholder = 'Type /1 and hit enter to start typing an H1 Text';
   }
 });
